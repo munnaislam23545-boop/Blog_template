@@ -1,568 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Progects 01 </title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="img/1.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
+    
 
+<style>
+  body{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #f3f3f3;
+  }
+.wrapper{
+width:600px;
+height:330px;
+display: flex;
+gap:10px;
+}
+.anime_card{
+height:100%;
+flex: 1;
+cursor: pointer;
+transition:0.5s ease;
+border-radius:20px;
+overflow: hidden;
+}
+.anime_card:hover{
+flex:4;    
+}
+.anime_card img{   
+width:100%;
+height:100%;
+object-fit: cover;
+filter: grayscale(1);
+transition: 0.5s;
+}
+.anime_card:hover img{
+    filter: grayscale(1);
+}
 
-  <header>
+</style>
 
-    <div class="header_top">
-      <h1>Free Shipping for all Order Of $105</h1>
+<div class="wrapper">
+   <div class="anime_card">
+     <img src="img/1.jpg" alt="">
+   </div>
+    <div class="anime_card">
+     <img src="img/2.jpg" alt="">
     </div>
 
-    <div class="munna_header">
-      <div class="munna_header_left">
-        <h1>Munna<span>Islam</span></h1>
-      </div>
-      <div class="munna_header_middle">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">projects</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Email</a></li>
-        </ul>
-      </div>
-
-      <div class="munna_header_Right">
-        <div class="icons">
-          <a href="#"><i class="fa-solid fa-comment"></i></a>
-          <a href="#"><i class="fa-solid fa-heart"></i></a>
-          <a href="#"><i class="fa-solid fa-eye"></i> </a>
-
-        </div>
-      </div>
+    <div class="anime_card">
+     <img src="img/3.jpg" alt="">
     </div>
 
-  </header>
-
-
-
-  <section class="hero">
-    <div class="hero_left">
-      <div class="hero_left_munna">
-        <p class="munna_p">10% off all products</p>
-        <h1 class="munna_heading">wellcome to <span>marcedes</span><br>Benz of <span>Lorado</span></h1>
-        <p class="bottom_P">Shop Our Express Store</p>
-        <button>Shop Now<i class="fa-solid fa-right-to-bracket"></i></button>
-      </div>
-    </div>
-
-    <div class="hero_right">
-      <img src="img/2.png" alt="hero_right">
-    </div>
-
-  </section>
-
-
-  <section class="munna">
-    <div class="munna_icons">
-      <i class="fa-solid fa-eye"></i>
-      <h1>Sales Rating</h1>
-    </div>
-
-    <div class="munna_icons">
-      <i class="fa-solid fa-star"></i>
-      <h1>Service Rating</h1>
-    </div>
-
-    <div class="munna_icons">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam commodi suscipit ullam aliquid quos dolorum
-        unde <br> Nesciunt repellendus adipisci, aliquid harum iste non hic suscipit dolore? Incidunt, sint nostrum?</p>
-    </div>
-
-
-  </section>
-
-
-
-  <section class="discount_card">
-    <h1 class="latest_discount">Mercedes-Benz Models</h1>
-
-    <div class="discount_card_main">
-      <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-       <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-     <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-     <div class="dis_card">
-        <div class="dis_left">
-          <p>Up to 25% Roadster</p>
-          <button>Shop Now</button>
-        </div>
-
-        <div class="dis_right">
-          <img src="img/3.png" alt="#">
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <section class="Shop">
-    <div class="shop_heading">
-      <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum.</i></p>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-    </div>
-
-    <div class="products_type">
-      <div class="type">
-        <h1><i class="fa-solid fa-snowflake"></i>snowflake</h1>
-      </div>
-
-      <div class="type2">
-        <h1><i class="fa-solid fa-earth-americas"></i>americas</h1>
-      </div>
-
-      <div class="type3">
-        <h1><i class="fa-solid fa-bicycle"></i>bicycle</h1>
-      </div>
-
-      <div class="type4">
-        <h1><i class="fa-solid fa-mug-saucer"></i>saucer</h1>
-      </div>
-
-    </div>
-
-    <div class="products">
-      <div class="products_box">
-        <div class="products_card">
-          <div class="card_image">
-            <img src="img/3.png" alt="#">
-          </div>
-          <div class="card_title">
-            <div class="star">
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-            </div>
-            <div class="title">
-              <h1>Hyundai</h1>
-              <p><del>$100.00</del><span>$150.00</span></p>
-              <button>Shop Now</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="products_card">
-          <div class="card_image">
-            <img src="img/3.png" alt="#">
-          </div>
-          <div class="card_title">
-            <div class="star">
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-            </div>
-            <div class="title">
-              <h1>Hyundai</h1>
-              <p><del>$100.00</del><span>$150.00</span></p>
-              <button>Shop Now</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="products_card">
-          <div class="card_image">
-            <img src="img/3.png" alt="#">
-          </div>
-          <div class="card_title">
-            <div class="star">
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-            </div>
-            <div class="title">
-              <h1>Hyundai</h1>
-              <p><del>$100.00</del><span>$150.00</span></p>
-              <button>Shop Now</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="products_card">
-          <div class="card_image">
-            <img src="img/3.png" alt="#">
-          </div>
-          <div class="card_title">
-            <div class="star">
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-            </div>
-            <div class="title">
-              <h1>Hyundai</h1>
-              <p><del>$100.00</del><span>$150.00</span></p>
-              <button>Shop Now</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="products_card">
-          <div class="card_image">
-            <img src="img/3.png" alt="#">
-          </div>
-          <div class="card_title">
-            <div class="star">
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-            </div>
-            <div class="title">
-              <h1>Hyundai</h1>
-              <p><del>$100.00</del><span>$150.00</span></p>
-              <button>Shop Now</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="products_card">
-          <div class="card_image">
-            <img src="img/3.png" alt="#">
-          </div>
-          <div class="card_title">
-            <div class="star">
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-            </div>
-            <div class="title">
-              <h1>Hyundai</h1>
-              <p><del>$100.00</del><span>$150.00</span></p>
-              <button>Shop Now</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="products_card">
-          <div class="card_image">
-            <img src="img/3.png" alt="#">
-          </div>
-          <div class="card_title">
-            <div class="star">
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-            </div>
-            <div class="title">
-              <h1>Hyundai</h1>
-              <p><del>$100.00</del><span>$150.00</span></p>
-              <button>Shop Now</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="products_card">
-          <div class="card_image">
-            <img src="img/3.png" alt="#">
-          </div>
-          <div class="card_title">
-            <div class="star">
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-            </div>
-            <div class="title">
-              <h1>Hyundai</h1>
-              <p><del>$100.00</del><span>$150.00</span></p>
-              <button>Shop Now</button>
-            </div>
-          </div>
-        </div>
-
-      
-        <div class="products_card">
-          <div class="card_image">
-            <img src="img/3.png" alt="#">
-          </div>
-          <div class="card_title">
-            <div class="star">
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-              <i class="fa-solid fa-snowflake"></i>
-            </div>
-            <div class="title">
-              <h1>Hyundai</h1>
-              <p><del>$100.00</del><span>$150.00</span></p>
-              <button>Shop Now</button>
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-    </div>
-
-  </section>
-
-
-  <section class="edmu">
-    <div class="guldes_left">
-      <div class="guldes_left_munna">
-        <p class="guldes_p"><i class="fa-solid fa-users"></i>fa-users</p>
-        <h1 class="guldes_heading">Buyne<span>Guldes</span></h1>
-        <p class="button_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam?</p>
-        <h3>Latest News</h3>
-        <h4>Video Reviews</h4>
-        <button>Shop Now<i class="fa-solid fa-bug"></i></button>
-      </div>
-    </div>
-
-    <div class="guldes_middle">
-      <p>Lorem,<br> ipsum dolor <br> sit amet consectetur adipisicing elit. Error, neque.</p>
-    </div>
-
-    <div class="guldes_right">
-      <img src="img/4.png" alt="guldes_right">
-    </div>
-
-  </section>
-
-
+   <div class="anime_card">
+     <img src="img/4.webp" alt="">
+   </div>
+
+</div>
 
 
 
 
 </body>
-
 </html>
